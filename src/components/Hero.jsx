@@ -80,6 +80,10 @@ const Hero = () => {
     setWatchTrailer(true);
   };
   return (
+
+    <> 
+  
+    
     <div className=" relative h-dvh w-screen overflow-x-hidden">
       {isLoading && (
         <div className="flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
@@ -156,6 +160,7 @@ const Hero = () => {
         G <b>a </b>ming
       </h1>
     </div>
+    </>
   );
 };
 
