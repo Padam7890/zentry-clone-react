@@ -13,8 +13,6 @@ const BenotoTilt = ({ children, className = "" }) => {
     const tiltX = Math.min(Math.max(-20, angle - 20), 20);
     const tiltY = Math.min(Math.max(-20, angle - 20), 20);
     setTransformStyle(`rotateX(${tiltX}deg) rotateY(${tiltY}deg)`);
-    
-
   };
 
   const handleMouseLeave = (e) => {
